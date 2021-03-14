@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2018",
+    "module": "CommonJS",
+    "noLib": false,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@wallaby-issue/testing": ["libs/testing/src/index.ts"],
+      "@wallaby-issue/testing-test": ["libs/testing-test/src/index.ts"]
+    },
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "exclude": ["node_modules", "tmp"]
+}
