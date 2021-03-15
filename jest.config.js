@@ -1,4 +1,7 @@
 module.exports = {
-  projects: ['<rootDir>/libs/testing-test'],
+  projects: [
+    '<rootDir>/libs/testing',
+    '<rootDir>/libs/testing-test'
+  ],
   testEnvironment: 'node'
 };
